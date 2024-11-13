@@ -98,21 +98,21 @@ def process_order(order_data):
     "Insurance": 0.0,
     "Transporter": "DPD",
     "Sender": {
-        "Consignor": "Little Brand Box",
-        "StreetNo": "100",
+        "Consignor": "Company Name",
+        "StreetNo": "10",
         "StreetNumber": "",
-        "StreetName": "100 Voortrekker Rd",
+        "StreetName": "Address",
         "Complex": "",
-        "Building": "The Spice Yard",
+        "Building": "",
         "UnitNo": "",
         "BuildingNumber": "",
-        "Suburb": "Salt River",
-        "Town": "CAPE TOWN",
-        "City": "CAPE TOWN",
-        "PostCode": "7925",
+        "Suburb": "",
+        "Town": "",
+        "City": "",
+        "PostCode": "",
         "StoreCode": "",
-        "Latitude": "-33.925786",
-        "Longitude": "18.470066"
+        "Latitude": "",
+        "Longitude": ""
     },
     "Consignee": {
         "Consignee": order_data.get("shipping_address", {}).get("name", "Unknown Receiver"),
@@ -152,11 +152,11 @@ def process_order(order_data):
     "WaybillInstructions": [],
     "Contacts": [],
     "SenderContacts": {
-        "FirstName": "Little Brand Box",
-        "Surname": "Company",
+        "FirstName": "Name",
+        "Surname": "Surname",
         "Telephone": "",
-        "CellPhone": "0214236868",
-        "Email": "malcolm@littlebrandbox.com",
+        "CellPhone": "0",
+        "Email": "mail@box.com",
         "IDNumber": ""
     },
     "ReceiverContacts": {
